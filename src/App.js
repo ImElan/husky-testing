@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Counter from './components/Counter';
 import Input from './components/Input';
 
-console.log('here i am');
+console.log('here i am right..? ');
 function App() {
     const [initialCount, setInitialCount] = useState(5);
     const handleChangeInitialCount = () => {
