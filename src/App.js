@@ -2,18 +2,19 @@ import React, { useState } from 'react';
 import Counter from './components/Counter';
 import Input from './components/Input';
 
+console.log('here');
 function App() {
-	const [initialCount, setInitialCount] = useState(5);
-	const handleChangeInitialCount = () => {
-		setInitialCount(12);
-	};
-	return (
-		<>
-			{/* <Counter initialCount={initialCount} />
+    const [initialCount, setInitialCount] = useState(5);
+    const handleChangeInitialCount = () => {
+        setInitialCount(12);
+    };
+    return (
+        <>
+            {/* <Counter initialCount={initialCount} />
 			<button onClick={handleChangeInitialCount}>Change Initial Count</button> */}
-			<Input initialValue='Test Initiative' />
-		</>
-	);
+            <Input initialValue="Test Initiative" />
+        </>
+    );
 }
 
 export default App;
@@ -41,8 +42,8 @@ export default App;
 // useEffect(() => {
 // 	getResults();
 // }, []);
-//927984506084-gi7tojpue9l5fnlfj3qj3g6bs5ndr1uj.apps.googleusercontent.com (CLIENT ID)
-//Ac2pUbMgGXRIDrH5vmNXttmz (CLIENT SECRET)
+// 927984506084-gi7tojpue9l5fnlfj3qj3g6bs5ndr1uj.apps.googleusercontent.com (CLIENT ID)
+// Ac2pUbMgGXRIDrH5vmNXttmz (CLIENT SECRET)
 /* 
         axios.get('http://localhost:3000/api/auth/login/oauth/google', {
             headers: {
