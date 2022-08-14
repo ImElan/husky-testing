@@ -1,37 +1,37 @@
 .resultItem {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px;
-	background-color: #00367f;
-	margin: 25px 10px;
-	border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00367f;
+    margin: 25px 10px;
+    border-radius: 10px;
 }
 
 .resultItem__modalityContainer {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 0 10px;
-	margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0 20px;
 }
 
 .resultItem__modalityImage {
-	height: 50px;
-	width: 50px;
-	margin-right: 40px;
+    height: 50px;
+    width: 50px;
+    margin-right: 40px;
 }
 
 .resultItem__modality,
 .resultItem__finding {
-	font-family: 'Nunito', sans-serif;
-	font-weight: 600;
-	font-size: 20px;
-	text-transform: capitalize;
-	color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
 }
 
 .resultItem__findingContainer {
-	padding: 0 10px;
-	margin: 0 20px;
+    padding: 0 10px;
+    margin: 0 20px;
 }

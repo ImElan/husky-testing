@@ -1,30 +1,30 @@
 .resultItemContainer {
-	background-color: #4981d5;
-	padding: 20px;
-	margin: 40px;
-	border-radius: 10px;
+    background-color: #4981d5;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 10px;
 }
 
 .resultItemContainer__result {
-	text-align: center;
-	padding: 10px;
-	font-family: 'Nunito', sans-serif;
-	font-weight: 700;
-	font-size: 24px;
-	color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
 }
 
 .resultItemContainer__headings {
-	display: flex;
-	justify-content: space-between;
-	margin: 0 55px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 55px;
 }
 
 .resultItemContainer__headings--modality,
 .resultItemContainer__headings--findings {
-	text-transform: uppercase;
-	font-family: 'Nunito', sans-serif;
-	font-size: 25px;
-	color: white;
-	font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
 }

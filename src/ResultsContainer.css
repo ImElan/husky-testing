@@ -1,14 +1,14 @@
 .resultsContainer {
-	display: flex;
-	flex-direction: column;
-	width: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .resultsContainer__title {
-	text-align: center;
-	font-family: 'Nunito', sans-serif;
-	font-weight: 700;
-	font-size: 36px;
-	color: white;
-	text-transform: uppercase;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;
 }
