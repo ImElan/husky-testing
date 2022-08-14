@@ -10,8 +10,10 @@ function App() {
     };
     return (
         <>
-            {/* <Counter initialCount={initialCount} />
-			<button onClick={handleChangeInitialCount}>Change Initial Count</button> */}
+            <Counter initialCount={initialCount} />
+            <button type="button" onClick={handleChangeInitialCount}>
+                Change Initial Count
+            </button>
             <Input initialValue="Test Initiative" />
         </>
     );
