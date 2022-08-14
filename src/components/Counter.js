@@ -5,6 +5,7 @@ function Counter({ initialCount = 0 }) {
     const [initialState] = React.useState({ count: initialCount });
     // const [initialState] = React.useReducer((s) => s, { count: initialCount });
 
+    console.log('my code was here');
     const [count, setCount] = useState(initialCount);
 
     const increment = () => {
